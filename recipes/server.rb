@@ -20,8 +20,6 @@
 include_recipe 'ambari::default'
 include_recipe 'ambari::setup_package_manager'
 
-sleep(30)
-
 package 'ambari-server'
 
 db_opts = ''
