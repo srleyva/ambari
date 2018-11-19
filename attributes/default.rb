@@ -6,7 +6,7 @@
 # node.default['ambari']['server_fqdn'] = 'localhost'
 
 # Set default version of Ambari.  Overwrite this to install a different version.
-node.default['ambari']['version'] = '2.2.1'
+node.default['ambari']['version'] = '2.7'
 
 case node['ambari']['version']
 when '1.7'
