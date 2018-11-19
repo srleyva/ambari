@@ -20,7 +20,9 @@
 include_recipe 'ambari::default'
 include_recipe 'ambari::setup_package_manager'
 
-package 'ambari-server'
+package 'ambari-server' do
+  timeout 30
+end
 
 db_opts = ''
 # Unfortunately, we only support embedded or mysql at this time
