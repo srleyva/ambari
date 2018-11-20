@@ -3,7 +3,7 @@
 # Attributes:: default
 #
 
-# node.default['ambari']['server_fqdn'] = 'localhost'
+node.default['ambari']['server_fqdn'] = 'localhost'
 
 # Set default version of Ambari.  Overwrite this to install a different version.
 node.default['ambari']['version'] = '2.7'
